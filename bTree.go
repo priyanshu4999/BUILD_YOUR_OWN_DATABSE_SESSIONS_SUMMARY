@@ -67,3 +67,7 @@ func (n *BtreeNode) InsertNonFull(key int) {
 	n.children[i].InsertNonFull(key)
 
 }
+
+func (n *BtreeNode) SplitCHILD(i int) *BtreeNode {
+	return nil
+}
